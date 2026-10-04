@@ -1,26 +1,62 @@
-# Remix of Dark Photo Portfolio
+# Portfolio
 
-quero importar um projeto do github
+Personal portfolio website showcasing my web development projects, skills, and contact information.
 
-This project was built with [Lovable](https://lovable.dev).
+## 🌐 Live Demo
 
-**Live app**: https://project-pal-fetch.lovable.app
+[View Live Portfolio](https://your-vercel-link.vercel.app)
 
-## Build with Lovable
+## ✨ Features
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/0f161dd5-4426-40a2-898e-9231f5fe41f6).
+- Responsive modern UI with dark theme
+- Hero section with typing animation
+- Smooth scroll animations
+- Projects showcase with cards
+- Skills & progress bars
+- Work experience timeline
+- Contact form (Gmail integration)
+- Social links (WhatsApp, Facebook, Instagram, GitHub, LinkedIn)
+- Mobile-friendly navigation
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## 🛠️ Tech Stack
 
-## Development
+- **Framework:** React + Vite
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 📁 Project Structure
+my-app/
+├── public/
+│ ├── ai.png
+│ ├── event.jpg
+│ ├── kc.png
+│ ├── health.png
+│ ├── lms.jpg
+│ ├── mu.png
+│ └── revit.jpg
+├── src/
+│ ├── components/
+│ │ ├── Hero.tsx
+│ │ ├── About.tsx
+│ │ ├── Projects.tsx
+│ │ ├── Contact.tsx
+│ │ └── Footer.tsx
+│ ├── data/
+│ │ └── portfolio.ts
+│ ├── lib/
+│ │ └── motion.ts
+│ └── App.tsx
+├── index.html
+├── package.json
+└── README.md
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+📬 Contact
+Email: tomr36428@gmail.com
+
+WhatsApp: +92 323 7713864
+
+LinkedIn: Saad Ali
+
+GitHub: @saad001-dev
